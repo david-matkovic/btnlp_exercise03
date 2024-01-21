@@ -1,0 +1,50 @@
+Question 1:
+
+a)	__init__: The constructor method of a class, which is called when a new instance of the class is created.
+	 It's used to initialize the object's attributes.
+	__str__: The method that is called to print function or str() on an object.
+	It returns a string representation of the object.
+
+b) 	A scenario where you might want to change a symbol's original dunder method is when you're creating
+	a custom class that needs to behave differently when certain Python built-in functions are applied to it. 
+
+
+Question 2:
+
+a)	A function in Python is a block of code that performs a specific task and can be called by its name. 
+	Functions can exist on their own and do not need to be associated with any object or class.
+	They can take arguments and return values, and they are defined using the def keyword.
+	A method, on the other hand, is similar to a function in that it is a block of code that performs
+	a specific task, but it is associated with an object/class.
+	Methods are defined within the class definition and are called on an instance of the class (an object). 
+	They implicitly take the object itself as the first argument, conventionally named self in the method definition.
+
+b)	I would use a class to encapsulate related data and behaviors and when I need to create multiple instances
+	with their own state. Also I'd use them to organize complex data structures because of things like
+	inheritance and polymorphism, allowing for more flexibility.
+
+Question 4:
+
+a)	 the total number of books for book1, book2, book3, and book4 would be 4. 
+	 total_books is a class variable, and changing it to 4 affects all instances of the class Book.
+
+b)	 ColorBook inherits all attributes and methods from the Book class.
+	 ColorBook would be labeled as a subclass or derived class of Book
+
+c)	 because super() is used to call the parent class's __init__ method, which automatically
+	 passes the self reference. super() is like a proxy object
+
+d)	 Creating a subclass like ColorBook allows us to extend the functionality of the base
+	 class Book without modifying it. ColorBook can have additional attributes specific to colored books,
+	 such as color and has_image, and potentially new methods or overridden methods that provide behaviors
+	 unique to colored books.
+
+
+Question 5:
+
+a)	Decorators in Python are special functions that can modify the behavior of another function or class.
+	@staticmethod - Transforms a method into a static method, which does not receive the implicit first argument
+	@classmethod - Transforms a method into a class method, which receives the class as the implicit first argument 
+	instead of the instance.
+
+

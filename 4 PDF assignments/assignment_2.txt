@@ -1,0 +1,20 @@
+Question 2:
+
+a)	.gitignore is used to specify untracked files that Git should ignore. 
+	And files already tracked by Git are not affected. It's usually used for log files, temporary files, 
+	or build directories—anything that we don't want to include in your repository.
+
+b)	The correct time to push to a master/main branch is after we test and review our changes,
+	(and ofc approve through a pull request).
+
+Question 3:
+
+b) 	dama010@UNIVW-NB380 MINGW64 ~/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise03/basic-tools-nlp-2023 (8335)
+	$ git status
+	On branch 8335
+	Changes to be committed:
+  	(use "git restore --staged <file>..." to unstage)
+        	new file:   assignment_2.txt
+
+	dama010@UNIVW-NB380 MINGW64 ~/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise03/basic-tools-nlp-2023 (8335)
+	$ git reset

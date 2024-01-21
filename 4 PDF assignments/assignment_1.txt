@@ -1,0 +1,63 @@
+
+Question 1:
+
+a) 	$ uname -a
+	MINGW64_NT-10.0-19045 UNIVW-NB380 3.4.9-be826601.x86_64 2023-09-07 12:36 UTC x86_64 Msys
+
+b)	No, it's the second time I've used this OS. I did use it for the second NLP assignment as well.
+
+c) 	No, I've got no questions that I would not be able to research on my own.
+
+
+Question 2:
+
+a) 	.bashrc is a shell script that Bash runs whenever it is started interactively. 
+	It configures the environment for the user's shell session by setting aliases, functions, and other shell variables.
+
+	.bash_profile is executed for login shells, where it often contains the same configurations as .bashrc but may
+	additionally set up environment variables that need to be available for the entire session, like PATH or system-wide exports.
+
+
+Question 3:
+
+a)	"stdout" stands for standard output and is the default stream where a program writes its output data. "stderr" is the short for standard error and
+	is a separate stream used to output error messages or diagnostics from the program. They are different because while stdout is used
+	for regular program output, stderr is specifically for error messages, which allows them to be handled or redirected separately from other output. 
+
+
+Question 4:
+
+a)	dama010@UNIVW-NB380 MINGW64 ~/Desktop (new_branch)
+	$ echo $((2+3))
+	5
+
+b) 	dama010@UNIVW-NB380 MINGW64 ~/Desktop (new_branch)
+	echo “2+3” | bc
+	5
+
+c) 	dama010@UNIVW-NB380 MINGW64 ~/Desktop (new_branch)
+	echo “2 3 + p” | dc
+	5
+
+
+Question 5:
+
+a)	man: shows the manual page for other commands or programs.
+
+b)	info: shows detailed documentation for commands or programs, which may include hyperlinked navigation.
+
+c) 	type: Tells you how a command name is interpreted by the shell, whether it's an alias, a function, a built-in, or an external executable.
+
+d)	which: finds the executable file associated with a given command in your PATH.
+
+e)	stat: shows detailed info. about a particular file or filesystem.
+
+
+Question 6:
+
+a)	My unique digits are 7, 0, 3, 8 and 5.
+	They correspond to the commands: 
+		tail(used to display the last few lines of a text file or stream)
+		wc(used to count the number of lines, words, and characters in a file)
+		cut(used to extract sections from each line of input)
+		set(used to define environment options in a shell or script)

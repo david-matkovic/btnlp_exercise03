@@ -1,0 +1,36 @@
+Question 1:
+
+a)	the function name should be written with an underscore: my_function
+	There should be no whitespace after the bracket and there shouold be one after the comma that
+	separates the two arguments.
+	I would personally add whitespace between the two arguments and the + sign in the return line
+
+b)	numpy, pandas, os should all be have their own line code line preceded by import each time
+
+
+Question 2:
+
+a)	x, y, and z lack whitespace around the assignment operator
+
+b)	return should be indented
+
+
+Question 3:
+
+a)	return should be indented
+
+b)	needs an underscore: calculate_result  | needs whitespace between arguments and comma (arg1, arg2):
+	the rest is fine.
+
+Question 4:
+
+a)	According to PEP 8, you should have one space on both sides of these operators (i.e., if x < 10 and y < 20):
+
+b)	This one is fine ;D
+
+
+Question 5:
+
+a)	There should be a blank line between method_one and method_two
+
+b)	the name of the function should be written like this calculate_result 
